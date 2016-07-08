@@ -1,0 +1,12 @@
+{
+    "folder_name": "myfolder",
+    "file_name": "myfilename",
+    "file_extension": "myext",
+    "file_contents": "My file contents",
+    "array_of_options": ["a", "b", "c"],
+    "object_of_options": {
+        "a": "The letter A",
+        "b": "The letter B",
+        "c": "The letter C"
+    }
+}
