@@ -1,0 +1,3 @@
+Objects are not supported.
+
+Output: {{cookiecutter.object_of_options}}

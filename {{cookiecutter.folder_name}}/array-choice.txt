@@ -1,0 +1,1 @@
+Array option chosen was "{{cookiecutter.array_of_options}}"

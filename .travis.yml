@@ -1,0 +1,12 @@
+language: python
+python:
+    - 3.4.3
+
+install:
+    - pip install cookiecutter
+
+before_script:
+    - cookiecutter . --no-input
+
+script:
+    - ./test.sh
