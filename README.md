@@ -1,4 +1,4 @@
-# cookiecutter-example
+# cookiecutter-example [![Build Status](https://travis-ci.org/henrahmagix/cookiecutter-example.svg?branch=master)](https://travis-ci.org/henrahmagix/cookiecutter-example)
 
 An example [Cookiecutter](https://github.com/audreyr/cookiecutter) to show usage, options, and output.
 
