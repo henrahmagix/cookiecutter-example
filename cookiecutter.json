@@ -8,5 +8,8 @@
         "a": "The letter A",
         "b": "The letter B",
         "c": "The letter C"
-    }
+    },
+    "_copy_without_render": [
+        "{{cookiecutter.next_*}}"
+    ]
 }
