@@ -24,4 +24,6 @@ cookiecutter --no-input gh:henrahmagix/cookiecutter-example
 
 ## Test
 
-Follow the `install`, `before_script`, and `script` commands in `.travis.yml`
+Follow the `install` and `script` commands in `.travis.yml`.
+
+To run the tests again, make sure to remove the generated `myfolder` folder.

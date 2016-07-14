@@ -1,3 +1,5 @@
+# Setup
+
 FAIL=0
 
 test_is_directory() {
@@ -24,6 +26,10 @@ test_files_equal() {
     fi
 }
 
+# Tests
+
+cookiecutter --no-input .
+
 test_is_directory   myfolder
 test_is_file        myfolder/array-choice.txt
 test_is_file        myfolder/object-choice.txt
@@ -31,5 +37,7 @@ test_is_file        myfolder/myfilename.myext
 test_files_equal    myfolder/array-choice.txt   expected/array-choice.txt
 test_files_equal    myfolder/object-choice.txt  expected/object-choice.txt
 test_files_equal    myfolder/myfilename.myext   expected/myfilename.myext
+
+# End
 
 exit $FAIL
